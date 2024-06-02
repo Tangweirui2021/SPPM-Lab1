@@ -1,3 +1,4 @@
+// This is B2 !
 using HomeControllServer.App;
 
 var MyAllowSpecificOrigins = "_myAllowSpecificOrigins";
