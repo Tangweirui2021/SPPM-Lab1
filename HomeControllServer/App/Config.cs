@@ -1,4 +1,5 @@
-﻿namespace HomeControllServer.App;
+﻿// B3
+namespace HomeControllServer.App;
 
 public class Config
 {
