@@ -235,6 +235,7 @@ app.Use(async (context, next) =>
     }
     else
     {
+        await next(context);
     }
 });
 
