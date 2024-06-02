@@ -1,0 +1,12 @@
+{
+	"name": "Change LED Brightness",
+	"description": "调整LED灯条亮度",
+	"image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAAAXNSR0IArs4c6QAAAjpJREFUaEPtmV1OwzAMx51qBxkPncQp2N5XJE7ASsU5YOdApdwAifK+cgqk9WG7B1oD2Vao1sVx0qYfon3blib+xf7Hdsagpuc1+hyPstFiPx2DK8b5mAMbHz7y7XGZJAP42Dm75Ma/zL+rZAGr9DYAvIXrBWPsFjhMdeYSUBnA8jqYvOi8dzrWGCB+SqfM4VG+y6ZGCBCeMd+7dxOTOYwA4jB9BIAHkwWRd5Ze4Ip5tR4tgH2c81GkGy5Ui4Q3vpzdTEcfZADbxueQuhBkgPg5Xdna+bIw+XYeTC4oniMBWIp51D4G/GUeTHwVhBJAnDbgwEo1Ud2/U08nNUCDoWMSSijAPkkBi+reXa35MphhOQIFeA/XIlEdyoO2HgaJd+fOZMujAHGY8rbsLh6r2IkkBehE+BwpOHBfVjNJAToRPn/ul5YZ/QBAdIABbKpWmnXpR+QEmQ6kAF0QMEXIvfCAAPEC96ytcg+0mIFLoWeigSarT5VWsMKuF6eQEUBbVeg5bxglsuM1yUbl3iZ+lwlYrI3XQh0QsqqxwQFaamaKXsXCR+mBphp5aRgqSmklgBjQqhYUzQwJQAxqo6n/0SfpokvZE/96weKFlk7mLffNxHOwMT0Q4r5oMskD+QvWITSNJ2ugSFz4H6B/l7slkBp0Qb3AMrqVUMmjjiMWKxNU6xuF0OmkVTu3AYDiJmzM4AFJr0vdWK08cG7S3nuAulO2xlX2gC3DqPMOANSdsjWusgd6L+IB4L/ngW9PaiNAr2eNZQAAAABJRU5ErkJggg==",
+	"min": 0,
+	"max": 255,
+	"str": "亮度",
+	"step": 1,
+	"refresh": 50,
+	"type": "slider",
+	"tag": "pi_zero_rgb_bright"
+}
