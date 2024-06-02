@@ -1,4 +1,5 @@
-﻿using System.Net.WebSockets;
+﻿// C4
+using System.Net.WebSockets;
 using System.Text;
 
 namespace HomeControllServer.App;
