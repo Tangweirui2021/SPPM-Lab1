@@ -122,12 +122,6 @@ app.MapPost("/message/set", (string key, string value, int? type) =>
                 }
                 break;
             case 0:
-                /*
-                if (!((data.HttpMessages.Contains(key) && data.WebSocketMessages.Contains(key)) || 
-                    (!data.HttpMessages.Contains(key) && !data.WebSocketMessages.Contains(key))))
-                {
-                    return Results.BadRequest("Key type not match");
-                }*/
                 if (!data.WebSocketMessages.Contains(key) && !data.HttpMessages.Contains(key))
                 {
                     data.HttpMessages.Add(key);
